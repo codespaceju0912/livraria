@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    background-color: #5be7d5;
+}
+.container{
+    background-color: #f3f9f8;
+    width: 960;
+    margin: auto;
+    justify-content: center;
+}
+header,footer.fundo{
+    background-color: #62aca2;
+}
+@font-face{
+    font-family: minhafonte;
+    src: url(/fonte/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+h1{
+    font-family: minhafonte;
+    font-size: 50px;
+}
+a:link{
+    color: #701c85;
+}
+a{
+    text-decoration: none; /*serve para decorar o texto*/
+}
+#imgprincipal{
+    width: 960px;
+    height: auto;
+    image-rendering: auto;
+}
