@@ -6,11 +6,29 @@
 body{
     background-color: #5be7d5;
 }
-.container{
+.principal{
+
+    align-items: center;      
+    width: 960;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+.normal,popular{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100;           
     background-color: #f3f9f8;
     width: 960;
     margin: auto;
-    justify-content: center;
+}
+
+.container{
+    justify-content: center;  
+    height: 100;           
+    background-color: #ffffff;
+    width: 960;
+    margin: auto;
 }
 header,footer.fundo{
     background-color: #62aca2;
@@ -29,18 +47,22 @@ a:link{
 a{
     text-decoration: none; /*serve para decorar o texto*/
 }
-#imgprincipal{
-    width: 960px;
+
+.img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#imgprincipal {
+    max-width: 100%;
     height: auto;
-    image-rendering: auto;
+    display: block;
 }
-.menu{
-    list-style: none;
-    border: 1px solid #c0c0c0;
-    float: left;
-}
-.menu li{
-    position: relative;
-    float: left;
-    border-right: 1px solid #c0c0c0;
+li,ul,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960;
+    margin: auto;
 }
