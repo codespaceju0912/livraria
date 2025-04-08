@@ -4,8 +4,8 @@ h2{
     text-align: center;
 }
 img{
-    width: 70%;
-    height: 70%;
+    border-radius: 25px;
+    width: 100%;
 }
 .item:hover{
     margin: 10px;
