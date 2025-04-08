@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
 
 *{
     margin: 0; padding: 0;
@@ -7,7 +7,6 @@ body{
     background-color: #5be7d5;
 }
 .principal{
-
     align-items: center;      
     width: 960;
     margin-left: 20em;
@@ -35,11 +34,12 @@ header,footer.fundo{
 }
 @font-face{
     font-family: minhafonte;
-    src: url(/fonte/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+    src: url(/fonte/Mea_Culpa/MeaCulpa-Regular.ttf);
 }
 h1{
     font-family: minhafonte;
-    font-size: 50px;
+    font-size: 70px;
+    text-align: center;
 }
 a:link{
     color: #701c85;
@@ -65,4 +65,14 @@ li,ul,p{
     align-items: center;
     width: 960;
     margin: auto;
+}
+
+#popular{
+    display: flex;
+    justify-content: center;  
+}
+.livro{
+    width: 200px;
+    height: 300px;
+    padding: 10px;
 }

@@ -1,0 +1,21 @@
+h2{
+    font-family:minhafonte,cursive,verdana,serif;
+    font-size: 35px;
+    text-align: center;
+}
+img{
+    width: 70%;
+    height: 70%;
+}
+.item:hover{
+    margin: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: rgba(112, 188, 211, 0.897);
+    transition: scale(1.1);
+}
+table{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
