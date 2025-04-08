@@ -1,11 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contato.css">
+    <title>Contato</title>
 </head>
 <body>
-    
+    <article class="principal">
+        <article class="container">
+            <header class="fundo">
+                <h1>Livraria dos Sonhos</h1>
+            </header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/paginas/sobre.html">Sobre</a></li>
+                    <li><a href="/paginas/livros.html">Livros</a></li>
+                    <li><a href="/paginas/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h4>Entre em contato conosco para solicitar orçamento para compra dos livros</h4>
+                <form name="contato" method="get"></form>
+                <fieldset>
+                    <legend>Orçamento</legend>
+                    <label for="lnome">Nome:</label><br>
+                    <input type="text"><br>
+                    <label for="ltelefone">Telefone:</label><br>
+                    <input type="tel"><br>
+                    <label for="lpedido">Pedido:</label><br>
+                    <textarea name="tpedido" id="pedido"></textarea>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </section>
+            <footer class="fundo">
+                <p>Porto Canoa, Serra | Telefone: (27) 92545-8765</p>
+                <p>Aberto de Segunda a Sábado - das 07:00 as 18:00</p>
+            </footer>
+        </article>
+    </article>
 </body>
 </html>

@@ -1,0 +1,7 @@
+section:hover{
+    background-color: #5ea3c195;
+    transition: scale(1.1);
+}
+section{
+    margin-bottom: 30px;
+}

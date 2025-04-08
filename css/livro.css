@@ -7,10 +7,16 @@ img{
     border-radius: 25px;
     width: 100%;
 }
-.item:hover{
+.tamanhotabela{
+    border-spacing: 10px;
+    font-family:cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+.item{
     margin: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+}
+.item:hover{
     background-color: rgba(112, 188, 211, 0.897);
     transition: scale(1.1);
 }
@@ -18,4 +24,7 @@ table{
     width: 400px;
     height: 400px;
     margin: auto;
+}
+a{
+    color: black;
 }

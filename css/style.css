@@ -41,6 +41,11 @@ h1{
     font-size: 70px;
     text-align: center;
 }
+h2{
+    font-family: minhafonte, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
 a:link{
     color: #701c85;
 }
@@ -65,6 +70,7 @@ li,ul,p{
     align-items: center;
     width: 960;
     margin: auto;
+    font-family:cursive, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #popular{
